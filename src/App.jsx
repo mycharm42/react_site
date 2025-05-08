@@ -20,7 +20,7 @@ function App() {
   const handleSetCount = (value) => {
     setCount(count + value);
   };
-  //usePagetracking();
+  usePagetracking();
   return (
     <div className="App">
       <h1>Simple Counter</h1>
